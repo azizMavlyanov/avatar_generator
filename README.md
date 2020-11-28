@@ -26,6 +26,6 @@ sudo docker-compose up -d --build --force-recreate
 
 1\) Address http://localhost:8083/ stands for the administration web server’s port of Influxdb
 
-2\) Address http://localhost:8086/ stands the HTTP API endpoint port, it’s used to send query to Influxdb by Telegraf
+2\) Address http://localhost:8086/ stands for the HTTP API endpoint port, it’s used to send query to Influxdb by Telegraf
 
-3\) Address http://localhost:3000/ stands Grafana dashboard monitoring page
+3\) Address http://localhost:3000/ stands for Grafana dashboard monitoring page
