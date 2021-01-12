@@ -10,7 +10,7 @@ HTML, CSS, JavaScript, Python, Flask, Redis
 
 ## Installation and usage of the project
 
-**Please make sure that you have docker installed on your PC (Notebook)**
+**Please make sure that you have docker and docker-compose installed on your PC (Notebook)**
 
 1\) Run containers from the root of the project:
 
@@ -20,7 +20,7 @@ sudo docker-compose up -d --build --force-recreate
 
 2\) Visit http://localhost:9090/ and start using the app
 
-**Redis database is persistent** since data located in volume.
+**Redis database is persistent (in memory)** since data located in volume.
 
 ## Monitoring
 
